@@ -19,7 +19,7 @@ function MarkAbsent(reg){
 }
 
 var time = 1000;
-function main(){
+function main(regNumbers){
     var absentList = regNumbers.split(/(?:,| |\n)+/)
     absentList = absentList.filter(Boolean);
     
@@ -30,4 +30,4 @@ function main(){
     }
     alert(`Successfully! Marked Absent of ${absentList.length} Students`);
 }
-main();
+main(Value);
