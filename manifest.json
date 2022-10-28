@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "YD-LMS Attendance Marker",
+    "description": "Automatically performs the actions to mark absenties of students",
+    "homepage_url": "https://github.com/ydrgzm",
+    "version": "1.0",
+    "browser_action": {
+        "default_title": "Click here to mark absenties!",
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ]
+}

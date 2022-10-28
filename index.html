@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      
+      html, body {
+        min-height: 200px;
+        min-width: 380px;
+        /* background-color: ; */
+        font-family: Arial;
+        background-color: #2B2B2B;
+        color: #FFFFFF;
+      }
+      button {
+          -webkit-border-radius: 8;
+          -moz-border-radius: 8;
+          border-radius: 8px;
+          font-family: Arial;
+          color: #ffffff;
+          font-size: 16px;
+          background: #4608AD;
+          padding: 10px 20px 10px 20px;
+          border: solid #4608AD 1px;
+          text-decoration: none;
+      }
+
+      button:hover {
+        background: #4C34AE;
+        text-decoration: none;
+      }
+      button{
+        margin-top: 12px;
+      }
+      textarea{
+        min-width: 360px;
+        min-height: 100px;
+        font-family: Arial;
+      }
+      h1,h4{
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+      h4{
+        margin-top: 12px;
+        margin-bottom: 25px;
+      }
+      h1{
+        background-color: #4608AD;
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+        translate: -8px -8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="text-align: center;"> 
+      <h1 > LMS Attendance </h1>
+      <h4>Mark Absenties Easily!</h4>
+      <p style="text-align: left; padding-left: 5px;"  >Registration Numbers should be separated by comma(,) or space or newline and should follow correct format.</p>
+      <textarea id="absenties" type="text" name="value" placeholder="Type Absenties Here..." ></textarea>
+      <br>
+      <button type="button" id='fillForm'>Submit</button>
+    </div>
+    <p>Created By YDRGZM</p>
+    <script src='action.js'></script>
+  </body>
+</html>
